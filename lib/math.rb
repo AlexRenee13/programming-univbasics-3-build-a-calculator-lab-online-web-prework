@@ -4,25 +4,21 @@ end
 
 
 def subtraction(num1, num2)
-  results= num1 - num2
-puts results
+  return  num1 - num2
 end
 
 def division(num1, num2)
-  results= num1 / num2
-puts results
+  return num1/num2
 end
 
 def multiplication(num1, num2)
-  results num1*num2
+  return num1*num2
 end
 
 def modulo(num1, num2)
-remainder= num2%num1
-puts remainder
+ return num2%num1
 end
 
 def square_root(num)
-square_root= Math.sqrt(num)
-puts square_root
+  return Math.sqrt(num)
 end
